@@ -10,7 +10,7 @@ st.caption("Conectado a la base de datos Supabase")
 
 # Configuración de llaves de Supabase
 SUPABASE_URL = "https://dmzseqotfotbycygwhzj.supabase.co"
-SUPABASE_KEY = "sb_publishable_jxL6Lypa..." # Pegá acá tu clave de la foto anterior
+SUPABASE_KEY = "sb_publishable_jxL6lYpaAC6Vl7Lrk4yfIA_yxq4Fjia" # Pegá acá tu clave de la foto anterior
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
