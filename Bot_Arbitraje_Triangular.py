@@ -99,6 +99,4 @@ async def main():
         escuchar_par(exchange, 'ETH/USDT'),
         calcular_arbitraje()
     )
-
-if st.button("Iniciar Monitor"):
     asyncio.run(main())
